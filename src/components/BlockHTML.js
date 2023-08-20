@@ -28,7 +28,7 @@ export function BlockHTML({ block }) {
                             <Link className="blockValue linkedElement" id="blockButton" to={`/Block/0x${Number(height - 1).toString(16)}`}>◀︎</Link>
                         </button>
                         <button className="blockButton nextBlock">
-                            <Link className="blockValue linkedElement" id="blockButton" to={`/Block/0x${Number(height - 1).toString(16)}`}>▶︎</Link>
+                            <Link className="blockValue linkedElement" id="blockButton" to={`/Block/0x${Number(height + 1).toString(16)}`}>▶︎</Link>
                         </button>
                     </div>
                     <div className="blockStatus">
