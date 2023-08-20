@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.homeLink {
+  font-family: 'Roboto', system-ui, -apple-system, "Segoe UI", "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #21325B;
+  opacity: 0.9;
+  text-decoration: none;
+  margin: 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  min-width: 680px;
+}
+
+.navDiv {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.searchBarDiv {
+  display: flex;
+  align-items: center;
+  flex-grow: 1.5;
+}
+
+.searchBar {
+  width: 95%;
+  box-sizing: border-box;
+  outline: #e9ecef solid 1px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+
+.searchBarInput {
+  padding: 0.375rem 0.75rem;
+  line-height: 45px;
+  font-size: 15px;
+  width: 93%;
+  border: none;
+  background-color: #F9FAFC;
+}
+
+.searchButton {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  font-size: larger;
+  -webkit-transform: rotate(315deg);
+  -moz-transform: rotate(315deg);
+  -o-transform: rotate(315deg);
+  transform: rotate(315deg); 
+  font-size: 35px;
+}
+
+.linkedElement {
+  text-decoration: none;
+  color: #0784C3;
+}

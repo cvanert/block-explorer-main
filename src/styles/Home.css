@@ -1,0 +1,199 @@
+.homeDiv {
+    text-align: left;
+}
+
+.homeStatsContainer {
+    display: flex;
+    align-content: space-between;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #EEF0F1;
+    min-width: 680px;
+}
+
+.homeTopColumn1,
+.homeTopColumn2 {
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.homeTopColumn1 {
+    border-right-style: solid;
+    border-right-color: #E6E8EB;
+    border-width: 1px;
+
+}
+
+.ethPrice,
+.gasPrice {
+    display: block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 1rem;
+    border-bottom-style: solid;
+    border-bottom-color: #E6E8EB;
+    border-width: 1px;
+}
+
+.ethSupply,
+.lastBlocks {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+}
+
+.lastBlocks {
+    display: flex;
+    align-content: space-between;
+}
+
+.finalizedBlock {
+    flex-grow: 1;
+}
+
+.lastBlocksContainers {
+    display: flex;
+}
+
+#lastSafeValue,
+#lastSafeLabel {
+    text-align: right;
+}
+
+.statLabelHomeTop {
+    color: #6C757D;
+    font-size: 12px;
+    line-height: 18px;
+    ;
+}
+
+.statValueHomeTop {
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.blocksGridContainerHome,
+.txsGridContainerHome {
+    display: flex;
+    align-content: space-between;
+    flex-flow: column nowrap;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: #EEF0F1;
+    text-align: left;
+    min-width: 680px;
+}
+
+.blocksInfoLabelHome,
+.txsInfoLabelHome {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    border-bottom-style: solid;
+    border-bottom-color: #E6E8EB;
+    border-width: 1px;
+}
+
+.blocksListHome,
+.txsListHome {
+    margin-top: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding: 0;
+    width: 100%;
+}
+
+.blockContainerHome,
+.txContainerHome {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-bottom-color: #E6E8EB;
+    border-width: 1px;
+}
+
+.column1LatestBlocks,
+.column1LatestTxs {
+    width: 29%;
+}
+
+.column2LatestBlocks,
+.column2LatestTxs {
+    width: 42%;
+}
+
+.column3LatestBlocks,
+.column3LatestTxs {
+    width: 29%;
+    display: flex;
+    align-items: center;
+    align-content: end;
+}
+
+.recencyHome {
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #6C757D;
+}
+
+.blockNumberHome,
+.minerHome,
+.transactionsHome,
+.txHashHome,
+.fromHome,
+.toHome {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #212529
+}
+
+.rewardHome,
+.amountHome {
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 500;
+    text-align: left;
+    border-style: solid;
+    border-color: #E6E8EB;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.flexGrowHome {
+    flex-grow: 1;
+}
+
+.removeSpacingHome {
+    padding-left: 0;
+}
+
+.linkedElement {
+    text-decoration: none;
+    color: #0784C3;
+}
+
+.latestBlocksAndTxsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(680px, 1fr));
+}

@@ -1,0 +1,89 @@
+.blockContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-bottom: 4rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #EEF0F1;
+  min-width: 800px;
+}
+
+.blockHeaderContainer {
+  display: flex;
+  margin: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom-style: solid;
+  border-bottom-color: #E6E8EB;
+  border-width: 1px;
+}
+
+.blockHeaderTitle {
+  font-size: 19px;
+  line-height: 23px;
+  font-weight: 500;
+  color: #212529;
+}
+
+.blockHeaderNumber {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #6C757D;
+  margin-left: 0.5rem;
+}
+
+.blockContainerBlock {
+  text-align: left;
+}
+
+.generalDetails, .miningDetails, .gasDetails {
+  border-bottom-style: solid;
+  border-bottom-color: #E6E8EB;
+  border-width: 1px;
+}
+
+.blockHeight, .blockStatus, .blockTimestamp, .blockTransactions, .blockWithdrawals, .blockMiner, .blockReward, .blockTotalDifficulty, .blockSize, .blockGasUsed, .blockGasLimit, .blockBaseFeePerGas, .blockBurntFees, .blockExtraData, .blockHash, .blockParentHash, .blockStateRoot, .blockWithdrawalsRoot, .blockNonce {
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+.blockMiner, .blockGasUsed, .blockHash {
+  padding-top: 1rem;
+}
+
+.blockLabel {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #6C757D;
+  width: 20%;
+}
+
+.blockValue {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #212529;
+}
+
+.linkedElement {
+  text-decoration: none;
+  color: #0784C3;
+}
+
+#blockButton {
+  color: #212529;
+}
+
+.blockButton {
+  border: none;
+  border-radius: 5px;
+  margin-left: .25rem;
+  background-color: #DEE2E6;
+}

@@ -1,0 +1,96 @@
+.txContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 4rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #EEF0F1;
+    min-width: 800px;
+}
+
+.txHeaderContainer {
+    display: flex;
+    margin: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom-style: solid;
+    border-bottom-color: #E6E8EB;
+    border-width: 1px;
+}
+
+.txHeaderTitle {
+    font-size: 19px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #212529;
+}
+
+.txContainerTx {
+    text-align: left;
+}
+
+.generalDetails,
+.miningDetails,
+.gasDetails {
+    border-bottom-style: solid;
+    border-bottom-color: #E6E8EB;
+    border-width: 1px;
+}
+
+.txHashTx,
+.txStatus,
+.txBlock,
+.txTimestamp,
+.txFrom,
+.txTo,
+.txAmount,
+.txFee,
+.txGasPrice,
+.txGasLimitAndUsage,
+.txGasFees,
+.txBurntFeesAndSavings,
+.otherAttributes,
+.txBurntFees,
+.txSavings, .txGasLimitAndUsageValue, .txGasFeesValue, .txBurntFeesAndSavingsValue, .otherAttributesValue {
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.txAmount,
+.otherAttributes {
+    padding-top: 1rem;
+}
+
+.txLabel {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #6C757D;
+    width: 20%;
+}
+
+.txValue {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #212529;
+}
+
+.linkedElement {
+    text-decoration: none;
+    color: #0784C3;
+}
+
+
+#gasLimit, .txGasFeesBase, .txGasFeesMax, .txBurntFees, .txType, .txNonce {
+    margin-right: 0.5rem;
+}
+
+#gasUsage, .txGasFeesMax, .txGasFeesMaxPriority, .txSavings, .txNonce, .txPosition {
+    margin-left: 0.5rem;
+}

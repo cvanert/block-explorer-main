@@ -1,0 +1,253 @@
+table {
+    table-layout: fixed;
+    margin-top: 1rem;
+}
+
+.theadRow {
+    border-bottom-style: solid;
+    border-bottom-color: #E6E8EB;
+    border-width: 1px;
+}
+
+.scrollContainer, .tokensScrollContainer {
+    height: 4vw;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-style: solid;
+    border-color: #E6E8EB;
+    border-radius: 5px;
+}
+
+.token {
+    flex: 0 0 auto;
+    overflow: hidden;
+    max-width: 75%;
+}
+
+.tokenScrollLabel {
+    display: flex;
+}
+
+.totalTokens {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: 212529;
+    padding-left: 1rem;
+    flex-grow: 1;
+}
+
+.tokenInstructions {
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #6C757D;
+    padding-right: 1rem;
+}
+
+.pagination {
+    margin: 1rem auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    color: #21325B;
+}
+
+.active {
+    border-bottom: 2px solid #21325B;
+    padding: 0 3px;
+    outline: none;
+}
+
+.addressContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: left;
+    background-color: #F9FAFC;
+}
+
+.addressHeaderContainer {
+    display: flex;
+    margin: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom-style: solid;
+    border-bottom-color: #E6E8EB;
+    border-width: 1px;
+}
+
+.addressHeaderTitle {
+    font-size: 19px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #212529;
+}
+
+.addressHeaderHash {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #212529;
+    margin-left: 0.5rem;
+}
+
+.overviewAndMoreInfoContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    background-color: #F9FAFC;
+}
+
+.overviewColumn,
+.moreInfoColumn {
+    flex-flow: column nowrap;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: #EEF0F1;
+    text-align: left;
+    min-width: 340px;
+}
+
+.overviewLabel,
+.moreInfoLabel, .addressTxsTitle {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    color: #212529;
+    padding-bottom: 1rem;
+}
+
+.ethBalance,
+.ethValue,
+.lastTxSent {
+    padding-bottom: 1rem;
+}
+
+
+.ethValueAddressDiv,
+.firstAndLastTxsSentDiv {
+    display: flex;
+}
+
+.statLabelAddress {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #6C757D;
+    width: 20%;
+}
+
+.statValueAddress {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #212529;
+}
+
+.ethValueAddress {
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #212529;
+}
+
+.ethBalanceValue,
+.ethValueValue {
+    font-weight: 500;
+}
+
+.earliestTxTime,
+.latestTxTime {
+    color: #6C757D;
+}
+
+.addressTxHash, .addressTxBlock, .addressTxFrom, .addressTxTo, .addressTxAmount, .addressTxAsset, .addressTxCategory {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #212529;
+}
+
+.addressTxHash {
+    min-width: 175px;
+}
+
+.addressTxAge {
+    min-width: 170px;
+}
+
+.addressTxFrom, .addressTxTo {
+    min-width: 165px;
+}
+
+.addressTxAmount {
+    min-width: 110px;
+}
+
+.addressTxAge, .addressTxDirection {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #212529;
+}
+
+.addressTxCategory, .addressTxBlock, .addressTxValue {
+    min-width: 75px;
+}
+
+.addressTxDirection {
+    min-width: 50px;
+}
+
+.txDirection {
+    border-radius: 5px;
+    background-color: #F8F9FA;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: #EBECED;
+    padding: 2px;
+}
+
+.addressTxsContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #EEF0F1;
+    min-width: 1200px;
+}
+
+.addressTxsTitle {
+    padding-bottom: 1rem;
+    border-bottom-style: solid;
+    border-bottom-color: #E6E8EB;
+    border-width: 1px;
+}
+
+.thead {
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 700;
+    color: #212529;
+}
+
+.linkedElement {
+    text-decoration: none;
+    color: #0784C3;
+}
